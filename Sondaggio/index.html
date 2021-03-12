@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+<title>Registrazione</title>
+</head>
+<body class="body">
+<div class="header">
+  <div class="logo titolo">SuChef</div>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Log in</a></li>
+      <li><a href="">Informazioni</a></li>
+      <li><a href="">Contatti</a></li>
+    </ul>
+  </div>
+</div>
+  <div class="Subt"><h1 class="sottotitolo">Compila questi campi per accedere al corso: </h1></div>
+  <div class="login">
+    <form class="" action="index.html" method="post">
+
+
+    <div class="login__container">
+      <div class="flex__login">
+        <label for="input" class="item descrizione">Nome:</label>
+        <input type="text" class="input"><br>
+        <label for="input" class="item descrizione">Cognome:</label>
+        <input type="text" class="input"><br>
+        <label for="input" class="item descrizione">E-mail:</label>
+        <input type="text" class="input"><br>
+        <label for="input" class="item descrizione">Password:</label><input type="password" value="" id="myInput" class="input">
+        <button onclick="myFunction()" class="button"><img src="https://img.icons8.com/material-outlined/24/000000/hide.png"/></button>
+        <label for="date" class="item descrizione">Data di nascita:</label>
+        <input type="date" name="date" class="input"><br>
+        <label for="" class="item_radio descrizione">Male</label>
+        <input type="radio" name="gender" value="">
+        <label for="" class="item_radio descrizione">Female</label>
+        <input type="radio" name="gender" value="">
+      </div>
+      <div class="flexcheck">
+        <p class="descrizione">Seleziona i corsi da tenere</p>
+        <div class="check">
+        <label for="input">Cucina sarda</label><input type="checkbox" name="" value="" class="inputcheck">
+        <label for="input">Cucina italiana</label><input type="checkbox" name="" value="" class="inputcheck">
+        <label for="input">Cucina americana</label><input type="checkbox" name="" value="" class="inputcheck">
+        <label for="input">Cucina argentina</label><input type="checkbox" name="" value="" class="inputcheck">
+        <label for="input">Cucina brasiliana</label><input type="checkbox" name="" value="" class="inputcheck">
+        <label for="input">Cucina orientale</label><input type="checkbox" name="" value="" class="inputcheck">
+        </div>
+      </div>
+      <div class="flex-submit">
+        <button type="submit" class="submit">Invia</button>
+      </div>
+      <div class="flex-reset">
+        <button type="reset" class="reset">Cancella</button>
+      </div>
+    </div>
+        </form>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+
+
+</body>

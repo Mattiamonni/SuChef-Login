@@ -1,0 +1,190 @@
+/* ! helps */
+.titolo{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.sottotitolo{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+
+}
+.descrizione{
+  font-size: 17px;
+  font-weight: 400;
+
+}
+
+
+/* ! body */
+.body{
+font-family: 'Oswald', sans-serif;
+background: #f7ead7;
+}
+
+/* ! Header */
+.header{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  max-width: 1350px;
+  margin: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.menu, .logo  {
+  min-width: 100px ;
+  padding:10px;
+  color: #670524;
+}
+
+.menu ul{
+  padding: 10px;
+  list-style-type: none;
+
+}
+.menu ul li{ display: inline-block;
+              }
+.menu ul li a {text-decoration: none;
+              padding: 20px;
+                display: block;
+                color: #000;
+}
+
+/* ! Login */
+
+
+.Subt{
+
+  display: flex;
+  position: absolute;
+  top: 48%;
+  left: 24%;
+}
+
+.login{
+  border-radius: 15px;
+  display: flex;
+  height: 170vh;
+  width: 100%;
+  background: url('img/back.png') no-repeat center center;
+  background-size: cover;
+}
+
+.login__container{
+  border: 6px solid #000;
+  height: 800px;
+  width: 650px;
+  display: flex;
+  position: absolute;
+  left: 24%;
+  top: 60%;
+  border-radius: 15px;
+}
+
+.flex__login{
+  display: flex;
+  height: 700px;
+  width: 300px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.flexcheck{
+  display: flex;
+  height: 700px;
+  width: 300px;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+.item{
+  display: flex;
+  height: 50px;
+  width: 100px;
+}
+
+.input{
+  border-radius: 15px;
+  background:  #adaf90;
+  height: 35px;
+}
+
+.button{
+  border: none;
+  border-radius: 10px  ;
+}
+
+.item_radio{
+  height: 20px;
+}
+
+.inputcheck{
+  display: flex;
+  align-items: : center;
+}
+
+.check{
+  width: 200px;
+  text-align: justify;
+}
+
+
+/* ! button */
+.flex-submit{
+  display: flex;
+  width:150px;
+  flex-direction:column;
+  height: 70px;
+  position: absolute;
+  top:90%;
+  left:15%;
+  align-items: center;
+}
+
+.submit{
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  background: #adaf90;
+}
+
+.flex-reset{
+  display: flex;
+  width:150px;
+  flex-direction:column;
+  height: 70px;
+  position: absolute;
+  top:90%;
+  left:55%;
+  align-items: center;
+}
+.reset{
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  background: #adaf90;
+}
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
